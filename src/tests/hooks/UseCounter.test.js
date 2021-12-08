@@ -2,7 +2,7 @@ import { renderHook, act } from '@testing-library/react-hooks';
 import { useCounter } from '../../hooks/useCounter';
 
 describe('Tests on useCounter', () => {
-  test('should returN default values', () => {
+  test('should return default values', () => {
     const { result } = renderHook(() => useCounter());
 
     expect(result.current.counter).toBe(10);
