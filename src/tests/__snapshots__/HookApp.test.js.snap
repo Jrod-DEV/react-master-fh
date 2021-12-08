@@ -1,3 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Tests on <HookApp /> component should show correctly 1`] = `ShallowWrapper {}`;
+exports[`Tests on <HookApp /> component should show correctly 1`] = `
+<Fragment>
+  <h1>
+    Hola Mundo
+  </h1>
+</Fragment>
+`;
