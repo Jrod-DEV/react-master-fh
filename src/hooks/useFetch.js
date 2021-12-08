@@ -26,6 +26,13 @@ export const useFetch = (url) => {
           error: null,
           data,
         });
+      })
+      .catch(() => {
+        setState({
+          data: null,
+          loading: false,
+          error: 'Unable to load the info',
+        });
       });
   }, [url]);
   return state;
